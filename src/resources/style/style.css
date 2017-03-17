@@ -1,0 +1,31 @@
+@import "content.css";
+@import "header.css";
+@import "footer.css";
+@import "dashboard.css";
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    /*padding: 0 80px;*/
+    margin: 0 auto;
+    /*max-width: 1680px;*/
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+
+@media (max-width: 980px){
+    .wrapper{
+        padding: 0 20px;
+    }
+}
+
